@@ -1,8 +1,9 @@
-#include<iostream>
-#include<vector>
+#include <iostream>
+#include <vector>
 using namespace std;
 
-int main() {
+int main()
+{
     // vector<int> v = {1, 2, 3, 4, 5}; <---- NOT WORKING due to different cpp version, works fine in c++11----->
 
     // Fill constructor
@@ -24,10 +25,10 @@ int main() {
     cout << arr.capacity() << endl;
 
     // Print all the element in the vector
-    for(int i = 0; i < arr.size(); i++) {
+    for (int i = 0; i < arr.size(); i++)
+    {
         cout << arr[i] << " ";
     }
-    cout << endl;
 
     return 0;
 }
